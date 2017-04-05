@@ -13,21 +13,18 @@ a, a:link, a:visited, a:active {
     margin: 0 auto;
     padding: 0px;
 }
-
 a:hover {color: #333;}
 
 .list-unstyled {
   padding-left: 0;
   list-style: none;
 }
-
 .list-inline {
     padding: 0px;
     margin: 0px;
     list-style: none;
     padding-right: 15px;
 }
-
 .list-inline > li {
     display: inline-block;
     padding: 0px;
@@ -39,15 +36,12 @@ a:hover {color: #333;}
 .texto-azul{
     color: #2196f3;
 }
-
 .azul{
     background-color: #2196f3;
 }
-
 .right{
     float: right;
 }
-
 .left{
     float: left;
     margin: 0 auto;
@@ -59,25 +53,21 @@ a:hover {color: #333;}
   margin-right: auto;
   margin-left: auto;
 }
-
 @media (min-width: 768px) {
   .container {
     width: 750px;
   }
 }
-
 @media (min-width: 992px) {
   .container {
     width: 970px;
   }
 }
-
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
   }
 }
-
 .container-fluid {
   padding-right: 15px;
   padding-left: 15px;
@@ -91,7 +81,6 @@ section{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
 main {
     width: 100%;
     min-height: 100vh;
@@ -106,7 +95,7 @@ main {
     height: 100vh;
     max-height: 100vh;
     z-index: 0;
-    background: url('../img/fundopreto.jpg') no-repeat center center fixed;
+    background: url('../img/fundo.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

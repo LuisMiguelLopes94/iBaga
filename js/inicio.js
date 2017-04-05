@@ -1,3 +1,1 @@
-$(document).ready(function(){
-  $(".owl-carousel").owlCarousel();
-});
+$('.carousel.carousel-slider').carousel({fullWidth: true});
